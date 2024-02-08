@@ -20,7 +20,6 @@ public class Variaveis {
 		
 		Integer num = 123;
 		imprime(num.toString());
-
-
+		
 	}
 }
