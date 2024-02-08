@@ -13,6 +13,7 @@ public class MainCalculadora {
 		resultado = calc01.soma(10, resultado);
 		
 		System.out.println("A soma é: "+resultado);
+		
 	}
 
 }
