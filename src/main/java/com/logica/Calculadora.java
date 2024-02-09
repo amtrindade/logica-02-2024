@@ -21,4 +21,19 @@ public class Calculadora {
 	public Integer multiplicacao(Integer valor1, Integer valor2) {
 		return valor1 * valor2;				
 	}
+	
+	public Integer calculaFatorial(Integer valor) {
+		Integer fatorial = 1;
+		
+		if (valor <= 0) {
+			fatorial = 0;
+		} 
+		else {				
+			//estrutura do looping for
+			for (int i = 1; i <= valor; i++) {
+				fatorial = fatorial * i;				
+			}
+		}				
+		return fatorial;
+	}
 }

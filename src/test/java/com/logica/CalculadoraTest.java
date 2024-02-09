@@ -52,5 +52,29 @@ public class CalculadoraTest {
 		assertEquals(-8, calculadora.multiplicacao(2, -4));
 	}
 	
+	@Test
+	public void calculaFatorialdeCinco() {
+		Calculadora calculadora = new Calculadora();
+		assertEquals(120, calculadora.calculaFatorial(5));
+	}
+	
+	@Test
+	public void calculaFatorialdeSeis() {
+		Calculadora calculadora = new Calculadora();
+		assertEquals(720, calculadora.calculaFatorial(6));
+	}
+	
+	@Test
+	public void calculaFatorialValorNegativo() {
+		Calculadora calculadora = new Calculadora();
+		assertEquals(0, calculadora.calculaFatorial(-5));
+	}
+	
+	@Test
+	public void calculaFatorialValorZero() {
+		Calculadora calculadora = new Calculadora();
+		assertEquals(0, calculadora.calculaFatorial(0));
+	}
+	
 
 }
