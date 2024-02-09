@@ -59,6 +59,12 @@ public class CalculadoraTest {
 	}
 	
 	@Test
+	public void calculaFatorialdeQuatro() {
+		Calculadora calculadora = new Calculadora();
+		assertEquals(24, calculadora.calculaFatorial(4));
+	}
+	
+	@Test
 	public void calculaFatorialdeSeis() {
 		Calculadora calculadora = new Calculadora();
 		assertEquals(720, calculadora.calculaFatorial(6));
